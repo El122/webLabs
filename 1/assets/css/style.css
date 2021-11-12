@@ -1,0 +1,154 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0 20px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: bisque;
+    padding: 10px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 32px;
+    font-family: "Puppies Play", cursive;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: chocolate;
+}
+
+nav a:hover {
+    background-color: chocolate;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+body {
+    background-image: url("https://sun9-75.userapi.com/impf/2gFWb2dSuJHfWn83HWQstz-scPhNm1t4B03-xg/5boBuXvGJ-8.jpg?size=512x256&quality=96&sign=007e66f815bbeef1e8144d4067bf8dd8&type=album");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#mainPage main .container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#mainPage h1 {
+    color: #fff;
+    font-family: "Puppies Play", cursive;
+
+    font-size: 10em;
+    margin-top: -100px;
+    text-shadow: 3px 3px 10px chocolate;
+}
+
+h2 {
+    color: #fff;
+    font-family: "Puppies Play", cursive;
+
+    font-size: 5em;
+    text-shadow: 3px 3px 10px bisque;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+#mainPage p {
+    color: #fff;
+    font-size: 24px;
+    max-width: 700px;
+    margin-top: -100px;
+}
+
+#mainPage p.book {
+    font-size: 18px;
+    font-style: cursive;
+    margin-top: 0;
+}
+
+.cardsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.card,
+form {
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    box-shadow: 0px 3px 20px -5px bisque;
+    padding: 30px;
+}
+
+#aboutPage {
+    padding-top: 100px;
+}
+
+h3 {
+    font-size: 24px;
+    color: chocolate;
+}
+
+fieldset {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid chocolate;
+}
+
+input:not([type="radio"]),
+textarea {
+    padding: 8px;
+    max-width: 500px;
+    width: 100%;
+    resize: none;
+}
+
+button {
+    background-color: chocolate;
+    color: #fff;
+    padding: 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: bisque;
+    color: chocolate;
+    transition: all 0.3s;
+}

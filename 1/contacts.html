@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Регистрация - страница с формой. Не главная.</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat&family=Puppies+Play&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/norm.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">SomeSite</div>
+                <nav>
+                    <a href="./index.html">Главная</a>
+                    <a href="./about.html">О нас</a>
+                    <a href="./contacts.html">Регистрация</a>
+                </nav>
+            </div>
+        </header>
+        <main class="content">
+            <div class="container">
+                <h2>Регистрация</h2>
+                <form action="">
+                    <fieldset>
+                        <legend>Форма регистрации</legend>
+                        <label>
+                            <span>ФИО</span>
+                            <input type="text" placeholder="ФИО" required />
+                        </label>
+                        <label>
+                            <span>Email</span>
+                            <input type="email" placeholder="Email" />
+                        </label>
+                        <label>
+                            <span>Номер телефона</span>
+                            <input type="tel" placeholder="Номер телефона" />
+                        </label>
+                        <label>
+                            <span>Город</span>
+                            <input type="text" id="city" placeholder="Город" />
+                        </label>
+                        <label>
+                            <span>Дата рождения</span>
+                            <input type="date" />
+                        </label>
+                        <label>
+                            <span>Пароль</span>
+                            <input
+                                type="password"
+                                id="pass1"
+                                placeholder="Пароль"
+                            />
+                        </label>
+                        <label>
+                            <span>Подтвердите пароль</span>
+                            <input
+                                type="password"
+                                id="pass2"
+                                placeholder="Подтвердите пароль"
+                            />
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Параметры доставки</legend>
+                        <label>
+                            <span>Адрес</span>
+                            <textarea
+                                name=""
+                                id=""
+                                cols="30"
+                                rows="10"
+                            ></textarea>
+                        </label>
+                        <label>
+                            <span>Почтовый индекс</span>
+                            <input
+                                type="number"
+                                placeholder="Почтовый индекс"
+                            />
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>
+                            Предпочитаемый способ получения уведомлений
+                        </legend>
+                        <label>
+                            <input type="radio" name="uvedomlenia" /><span
+                                >По Email</span
+                            >
+                        </label>
+                        <label>
+                            <input type="radio" name="uvedomlenia" /><span
+                                >По телефону</span
+                            >
+                        </label>
+                        <label>
+                            <input type="radio" name="uvedomlenia" /><span
+                                >Не уведомлять меня</span
+                            >
+                        </label>
+                    </fieldset>
+                    <button>Отправьте меня на море</button>
+                </form>
+            </div>
+        </main>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

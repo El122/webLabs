@@ -1,0 +1,117 @@
+@font-face {
+    font-family: 'Sicret Mono PERSONAL';
+    src: url('SicretMonoPERSONAL.eot');
+    src: url('SicretMonoPERSONAL.eot?#iefix') format('embedded-opentype'),
+        url('SicretMonoPERSONAL.woff2') format('woff2'),
+        url('SicretMonoPERSONAL.woff') format('woff'),
+        url('SicretMonoPERSONAL.ttf') format('truetype'),
+        url('SicretMonoPERSONAL.svg#SicretMonoPERSONAL') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sicret Mono PERSONAL ExtBd';
+    src: url('SicretMonoPERSONALExtBd.eot');
+    src: url('SicretMonoPERSONALExtBd.eot?#iefix') format('embedded-opentype'),
+        url('SicretMonoPERSONALExtBd.woff2') format('woff2'),
+        url('SicretMonoPERSONALExtBd.woff') format('woff'),
+        url('SicretMonoPERSONALExtBd.ttf') format('truetype'),
+        url('SicretMonoPERSONALExtBd.svg#SicretMonoPERSONALExtBd') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sicret Mono PERSONAL ExtLt';
+    src: url('SicretMonoPERSONALExtLt.eot');
+    src: url('SicretMonoPERSONALExtLt.eot?#iefix') format('embedded-opentype'),
+        url('SicretMonoPERSONALExtLt.woff2') format('woff2'),
+        url('SicretMonoPERSONALExtLt.woff') format('woff'),
+        url('SicretMonoPERSONALExtLt.ttf') format('truetype'),
+        url('SicretMonoPERSONALExtLt.svg#SicretMonoPERSONALExtLt') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sicret Mono PERSONAL';
+    src: url('SicretMonoPERSONALBlack.eot');
+    src: url('SicretMonoPERSONALBlack.eot?#iefix') format('embedded-opentype'),
+        url('SicretMonoPERSONALBlack.woff2') format('woff2'),
+        url('SicretMonoPERSONALBlack.woff') format('woff'),
+        url('SicretMonoPERSONALBlack.ttf') format('truetype'),
+        url('SicretMonoPERSONALBlack.svg#SicretMonoPERSONALBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sicret Mono PERSONAL';
+    src: url('SicretMonoPERSONAL-Bold.eot');
+    src: url('SicretMonoPERSONAL-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SicretMonoPERSONAL-Bold.woff2') format('woff2'),
+        url('SicretMonoPERSONAL-Bold.woff') format('woff'),
+        url('SicretMonoPERSONAL-Bold.ttf') format('truetype'),
+        url('SicretMonoPERSONAL-Bold.svg#SicretMonoPERSONAL-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sicret Mono PERSONAL Med';
+    src: url('SicretMonoPERSONALMed.eot');
+    src: url('SicretMonoPERSONALMed.eot?#iefix') format('embedded-opentype'),
+        url('SicretMonoPERSONALMed.woff2') format('woff2'),
+        url('SicretMonoPERSONALMed.woff') format('woff'),
+        url('SicretMonoPERSONALMed.ttf') format('truetype'),
+        url('SicretMonoPERSONALMed.svg#SicretMonoPERSONALMed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sicret Mono PERSONAL SemBd';
+    src: url('SicretMonoPERSONALSemBd.eot');
+    src: url('SicretMonoPERSONALSemBd.eot?#iefix') format('embedded-opentype'),
+        url('SicretMonoPERSONALSemBd.woff2') format('woff2'),
+        url('SicretMonoPERSONALSemBd.woff') format('woff'),
+        url('SicretMonoPERSONALSemBd.ttf') format('truetype'),
+        url('SicretMonoPERSONALSemBd.svg#SicretMonoPERSONALSemBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sicret Mono PERSONAL';
+    src: url('SicretMonoPERSONALLight.eot');
+    src: url('SicretMonoPERSONALLight.eot?#iefix') format('embedded-opentype'),
+        url('SicretMonoPERSONALLight.woff2') format('woff2'),
+        url('SicretMonoPERSONALLight.woff') format('woff'),
+        url('SicretMonoPERSONALLight.ttf') format('truetype'),
+        url('SicretMonoPERSONALLight.svg#SicretMonoPERSONALLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sicret Mono PERSONAL';
+    src: url('SicretMonoPERSONALThin.eot');
+    src: url('SicretMonoPERSONALThin.eot?#iefix') format('embedded-opentype'),
+        url('SicretMonoPERSONALThin.woff2') format('woff2'),
+        url('SicretMonoPERSONALThin.woff') format('woff'),
+        url('SicretMonoPERSONALThin.ttf') format('truetype'),
+        url('SicretMonoPERSONALThin.svg#SicretMonoPERSONALThin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

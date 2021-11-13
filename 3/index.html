@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Регистрация</title>
+        <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>
+                Чтобы пройти регистрацию, пройдите 7 кругов ада и нарисуйте свой
+                портретик
+            </h1>
+
+            <div class="toolbar">
+                <label>
+                    Цвет кисти<br />
+                    <input type="color" onchange="changeColor(this)" />
+                </label>
+                <label>
+                    Толщина кисти<br />
+                    <input
+                        type="number"
+                        onchange="changeThickness(this)"
+                        placeholder="Толщина кисти"
+                        value="1"
+                    />
+                </label>
+                <button onclick="clearCanvas()">Очистить</button>
+            </div>
+            <canvas width="1200" height="500"></canvas>
+        </div>
+
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>

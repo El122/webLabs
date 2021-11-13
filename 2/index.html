@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>АВУ - аудио-видео-управление</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,400&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./assets/fonts/stylesheet.css" />
+        <link rel="stylesheet" href="./assets/css/norm.css" />
+        <link rel="stylesheet" href="./assets/css/style.css" />
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1 class="logo">
+                    <span class="title-big">АВУ</span>
+                    <span class="title-small">аудио-видео-управление</span>
+                </h1>
+                <nav>
+                    <button class="btn" onclick="addList()">
+                        Добавить плейлист
+                    </button>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="content">
+                    <div id="elemsContainer" class="elemsContainer">
+                        <label>
+                            <h2>Добавить аудио и видео</h2>
+                            <input
+                                type="file"
+                                accept="audio/*, video/*"
+                                id="newElem"
+                            />
+                        </label>
+                    </div>
+                    <div id="listsContainer"></div>
+                </div>
+            </div>
+        </main>
+
+        <script src="./assets/js/main.js"></script>
+    </body>
+</html>

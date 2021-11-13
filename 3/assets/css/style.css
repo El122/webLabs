@@ -1,0 +1,25 @@
+* {
+    font-family: "Sicret Mono PERSONAL";
+}
+
+h1 {
+    max-width: 752px;
+    margin: auto;
+    text-align: center;
+}
+
+canvas {
+    border: 1px dashed deeppink;
+}
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}

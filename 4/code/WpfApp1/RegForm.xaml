@@ -1,0 +1,30 @@
+﻿<Window x:Class="WpfApp1.RegForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="RegForm" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/5boBuXvGJ-8.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Label Content="Registration" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" Background="{x:Null}" FontFamily="Puppies Play" FontSize="72" Foreground="White" Height="82" Width="440" HorizontalContentAlignment="Center"/>
+        <Rectangle Margin="21,115,31,174" Fill="#CCFFFFFF"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="44,132,0,0" VerticalAlignment="Top" FontFamily="Montserrat"/>
+        <TextBox x:Name="fioField"  HorizontalAlignment="Left" Margin="44,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="44,183,0,0" VerticalAlignment="Top" FontFamily="Montserrat"/>
+        <TextBox x:Name="emailField" HorizontalAlignment="Left" Margin="44,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged_1"/>
+        <Label Content="Номер телефона" HorizontalAlignment="Left" Margin="335,131,0,0" VerticalAlignment="Top" FontFamily="Montserrat"/>
+        <TextBox x:Name="phoneField" HorizontalAlignment="Left" Margin="335,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Город" HorizontalAlignment="Left" Margin="335,182,0,0" VerticalAlignment="Top" FontFamily="Montserrat"/>
+        <TextBox x:Name="cityField" HorizontalAlignment="Left" Margin="335,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Пароль" HorizontalAlignment="Left" Margin="598,132,0,0" VerticalAlignment="Top" FontFamily="Montserrat"/>
+        <TextBox x:Name="pass1Field" HorizontalAlignment="Left" Margin="598,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Подтвердите пароль" HorizontalAlignment="Left" Margin="598,183,0,0" VerticalAlignment="Top" FontFamily="Montserrat"/>
+        <TextBox x:Name="pass2Field" HorizontalAlignment="Left" Margin="598,208,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Зарегистрироваться" Margin="325,0,325,81" Background="#D8090911" Foreground="White" BorderBrush="{x:Null}" Height="41" VerticalAlignment="Bottom" Click="Button_Click"/>
+
+    </Grid>
+</Window>

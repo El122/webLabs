@@ -1,0 +1,26 @@
+﻿<Window x:Class="WpfApp1.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="About" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="/5boBuXvGJ-8.jpg"/>
+        </Grid.Background>
+        <Label Content="About us" HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" Background="{x:Null}" FontFamily="Puppies Play" FontSize="72" Foreground="White" Height="82" Width="440" HorizontalContentAlignment="Center">
+        </Label>
+        <Rectangle Height="160" Margin="294,145,294,0" VerticalAlignment="Top" Fill="#CCFFFFFF"/>
+        <Label Content="Наши планы" HorizontalAlignment="Center" Margin="0,177,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.417,-0.056" FontSize="18" FontFamily="Montserrat" Foreground="Chocolate" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Center" Margin="0,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="У нас нет планов на счет этого приложения, поэтому мы пойдем пить чай " Height="56" Width="172" FontFamily="Montserrat" TextAlignment="Center"/>
+        <Rectangle Height="160" Margin="41,148,547,0" VerticalAlignment="Top" Fill="#CCFFFFFF"/>
+        <Label Content="Наши цели" HorizontalAlignment="Left" Margin="80,180,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.417,-0.056" FontSize="18" FontFamily="Montserrat" Foreground="Chocolate" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="61,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="Создать какое-то приложение и красиво его оформить" Height="56" Width="172" FontFamily="Montserrat" TextAlignment="Center"/>
+        <Rectangle Height="160" Margin="549,145,39,0" VerticalAlignment="Top" Fill="#CCFFFFFF"/>
+        <Label Content="Преимущества" HorizontalAlignment="Left" Margin="569,177,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.417,-0.056" FontSize="18" FontFamily="Montserrat" Foreground="Chocolate" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="569,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Text="У нас есть вкусный чай, но вам мы его не дадим" Height="56" Width="172" FontFamily="Montserrat" TextAlignment="Center"/>
+
+    </Grid>
+</Window>

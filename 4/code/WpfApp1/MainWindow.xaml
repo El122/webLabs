@@ -1,0 +1,33 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid x:Name="Some_App">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.Background>
+            <ImageBrush TileMode="FlipX" ImageSource="/5boBuXvGJ-8.jpg" Stretch="UniformToFill"/>
+        </Grid.Background>
+        <Label Content="Welcome to Some App" HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" Background="{x:Null}" FontFamily="Puppies Play" FontSize="72" Foreground="White" Grid.Column="1" Height="82" Width="440">
+            <Label.Effect>
+                <BlurEffect/>
+            </Label.Effect>
+        </Label>
+        <Label Content="Welcome to Some App" HorizontalAlignment="Center" Margin="0,34,0,0" VerticalAlignment="Top" Background="{x:Null}" FontFamily="Puppies Play" FontSize="72" Foreground="White" Grid.Column="1" Height="82" Width="440">
+            <Label.Effect>
+                <DropShadowEffect/>
+            </Label.Effect>
+        </Label>
+        <TextBlock Margin="138,178,138,0" Text="У местных богов была дурная привычка ходить по домам атеистов и бить стекла. " TextWrapping="Wrap" Foreground="White" FontFamily="Montserrat" FontSize="18" TextAlignment="Center" Height="44" VerticalAlignment="Top" Grid.Column="1"/>
+        <TextBlock Margin="138,260,138,0" Text="&quot;Цвет волшебства&quot;, Терри Пратчетт" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Montserrat" TextAlignment="Center" FontWeight="Normal" FontStyle="Italic" FontSize="14" Grid.Column="1" Height="17"/>
+        <Button Content="О нас" Grid.Column="1" HorizontalAlignment="Left" Margin="278,360,0,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="18" Background="{x:Null}" Foreground="White" RenderTransformOrigin="0.987,0.532" BorderBrush="{x:Null}" Height="26" Width="56" Click="Button_Click"/>
+        <Button Content="Регистрация" Grid.Column="1" Margin="0,360,265,0" VerticalAlignment="Top" FontFamily="Montserrat" FontSize="18" Background="{x:Null}" Foreground="White" BorderBrush="{x:Null}" Height="26" HorizontalAlignment="Right" Width="125" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

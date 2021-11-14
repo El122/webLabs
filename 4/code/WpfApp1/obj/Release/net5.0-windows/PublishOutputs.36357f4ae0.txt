@@ -1,0 +1,5 @@
+D:\Files Data\Projects\Release\WpfApp1.exe
+D:\Files Data\Projects\Release\WpfApp1.dll
+D:\Files Data\Projects\Release\WpfApp1.deps.json
+D:\Files Data\Projects\Release\WpfApp1.runtimeconfig.json
+D:\Files Data\Projects\Release\WpfApp1.pdb

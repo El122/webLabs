@@ -1,0 +1,9 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\lazye\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lazye\\.nuget\\packages",
+      "D:\\Programs\\Visual Studio\\Components\\NuGetPackages"
+    ]
+  }
+}
